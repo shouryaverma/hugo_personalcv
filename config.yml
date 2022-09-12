@@ -1,0 +1,38 @@
+baseURL: ""
+languageCode: en-us
+title: Home
+theme: hugo-astatine-theme
+preserveTaxonomyNames: true
+rssLimit: 10
+paginate: 10
+pygmentsCodefences: true
+pygmentsStyle: native
+enableEmoji: true
+taxonomies:
+  category: categories
+  tag: tags
+permalinks:
+  post: '/:slug/'
+  page: '/:slug/'
+menu:
+  main:
+    - name: Experience
+      url: /experience/
+      weight: -150
+    - name: Projects
+      url: /projects/
+      weight: -140
+    - name: Publications
+      url: /publications/
+      weight: -130
+    - name: CV
+      url: /cv/
+      weight: -120
+params:
+  description: The homepage of Shourya
+  authorName: Shourya Verma
+  imgname:
+    name: img/photo.jpg
+    alt: Profile picture
+sitemap:
+  filename: sitemap.xml
