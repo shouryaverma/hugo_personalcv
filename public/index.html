@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+	<meta name="generator" content="Hugo 0.102.3" />
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1"><title>Home</title>
+<meta property="og:title" content="Home">
+<meta property="og:type" content="website">
+
+
+<meta property="og:image" content="img/photo.jpg">
+
+<meta property="og:url" content="/">
+
+<meta property="og:description" content="The homepage of Shourya">
+<meta name="Description" property="description" content="The homepage of Shourya">
+
+
+
+<link rel="stylesheet" href="/css/style.min.css">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#ffffff">
+<link rel="webmention" href="https://webmention.io/hugocisneros.com/webmention">
+<link rel="pingback" href="https://webmention.io/hugocisneros.com/xmlrpc">
+<script>
+ function updateMode() {
+    
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+    } else {
+        document.documentElement.classList.remove('dark');
+    }
+ }
+ function toggleMode() {
+     if (localStorage.theme === 'dark') {
+        
+        localStorage.theme = 'light';
+     }
+     else {
+        
+        localStorage.theme = 'dark';
+     }
+     updateMode()
+ }
+ window.onload = updateMode();
+ function toggleMenu() {
+     let navbar = document.getElementById("navbar-default");
+     if (navbar.classList.contains("hidden")) {
+        navbar.classList.remove("hidden");
+     }
+     else {
+        navbar.classList.add("hidden");
+     }
+ }
+</script>
+
+  </head>
+  <body>
+    <header class="md:px-0 px-2">
+        <nav >
+  <div class="container flex flex-wrap justify-between items-center mx-auto">
+    <div class="nav-main my-2.5">
+      <a href="" class="nav-title py-2.5 text-2xl text-zinc-600 dark:text-zinc-300 hover:border-b-0">Home</a>
+    </div>
+    <button type="button"
+            onclick="toggleMenu()"
+            class="inline-flex items-center p-2 ml-3
+                  text-sm text-gray-500
+                  rounded-lg md:hidden hover:bg-gray-100
+                  focus:outline-none focus:ring-2
+                  focus:ring-gray-200 dark:text-gray-400
+                  dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-default"
+            aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor"
+             viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1
+                           0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0
+                           01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0
+                           01-1-1z" clip-rule="evenodd"></path>
+        </svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+      <ul class="grid md:grid-flow-col items-center justify-between text-lg my-2.5">
+        
+        <li class="p-2.5 md:first:pl-0 md:border-none border-b list-none">
+          <a class="text-zinc-600 dark:text-zinc-300
+                    hover:border-b-0" href="/experience/">Experience</a>
+        </li>
+        
+        <li class="p-2.5 md:first:pl-0 md:border-none border-b list-none">
+          <a class="text-zinc-600 dark:text-zinc-300
+                    hover:border-b-0" href="/projects/">Projects</a>
+        </li>
+        
+        <li class="p-2.5 md:first:pl-0 md:border-none border-b list-none">
+          <a class="text-zinc-600 dark:text-zinc-300
+                    hover:border-b-0" href="/publications/">Publications</a>
+        </li>
+        
+        <li class="p-2.5 md:first:pl-0 md:border-none border-b list-none">
+          <a class="text-zinc-600 dark:text-zinc-300
+                    hover:border-b-0" href="/cv/">CV</a>
+        </li>
+        
+        <li class="h-7 pl-2.5 pr-0 list-none">
+          <button type="button" onclick="toggleMode()" class="h-full">
+            <img class="h-7 w-7 max-h-full mb-1.5 p-1.5 hidden dark:inline" id="dark-mode-button-img"
+                 src="img/light_mode.svg">
+            <img class="h-7 w-7 max-h-full mb-1.5 p-1.5 inline dark:hidden" id="dark-mode-button-img"
+                 src="img/dark_mode.svg">
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    </header>
+    <main class="content h-card container mt-2 m-auto
+                 leading-loose md:px-0 px-2 z-0 Page(/_index.md)"
+          role="main">
+    
+    <div class="head container grid sm:grid-cols-2 grid-cols-1
+            justify-around flex-wrap items-center"
+     itemscope itemtype="http://schema.org/Person">
+    <div class="picture p-8 max-w-[80%] mx-auto basis-20 grow shrink"
+         itemscope itemtype="http://schema.org/ImageObject">
+        <picture>
+            
+            <source srcset="img/photo.jpg"
+                    >
+            <img class="main-image u-photo mx-auto"
+                 itemprop="contentUrl" alt="Main picture"
+                 src="img/photo.jpg">
+        </picture>
+    </div>
+    <div class="mx-4 ml-8 basis-60 grow shrink-2 leading-snug text-base">
+        <a  class="u-url font-bold" rel="me" itemprop="url" href="/">
+            <h1 class="text-black dark:text-zinc-300 p-name border-0"
+                itemprop="name">Shourya Verma
+            </h1>
+        </a>
+        
+        <h3 itemprop="jobTitle">MSc Scientific Computing, Heidelberg University, Germany</h3>
+            
+    </div>
+</div>
+
+    <h2 id="biography">Biography</h2>
+<h4 id="-looking-for-a-phd-position-">🙌 Looking for a PhD position 🙌</h4>
+<p>I am a second year Master&rsquo;s student studying <a href="https://www.uni-heidelberg.de/en/study/all-subjects/scientific-computing/scientific-computing-master">MSc Scientific Computing</a> at Heidelberg University, Germany. I received my undergraduate degree in <a href="https://digital.ucas.com/coursedisplay/courses/184fd050-6877-dbd4-a978-af0b438f9b2d?academicYearId=2023">BSc Computing Science and Physics Honors</a> from University of Glasgow, UK.</p>
+<p>I am highly motivated to pursue a career in machine learning based methods in niche application areas in healthcare. With my academic preparedness at Heidelberg University, and internship experiences, my long term goal is to blend high-end software development, artificial intelligence, and quantum computation for problems concerning medical imaging, bioinformatics, and life sciences.</p>
+<h2 id="interests">Interests</h2>
+<ul>
+<li><strong>Machine Learning:</strong> Explainable, Interpretable and Confounder-Free Learning</li>
+<li><strong>Medical Imaging:</strong> Classification and Semantic Segmentation</li>
+<li><strong>Clinical Systems:</strong> EHR Data Acquisition, NoSQL Databases, Decision Support Systems</li>
+</ul>
+<h2 id="skills">Skills</h2>
+<p>Python, Scikit-learn, Tensorflow, Pytorch, Keras, OpenAI Gym, HTML, CSS, Java, JavaScript, NodeJS, Android
+Studio, Django, Hugo, MongoDB, Dart, Flutter, Docker, Kubernetes.</p>
+<h2 id="contact">Contact</h2>
+<p><a href="mailto:shourya.verma@stud.uni-heidelberg.de">E-mail</a> <strong>|</strong> 
+<a href="https://www.researchgate.net/profile/Shourya-Verma-2">Research Gate</a> <strong>|</strong> 
+<a href="https://github.com/shouryaverma">Github</a> <strong>|</strong> 
+<a href="https://www.linkedin.com/in/shourya-verma/">LinkedIn</a> <strong>|</strong>
+<a href="https://www.instagram.com/shouryaverma10/">Instagram</a></p>
+
+    
+    
+    <hr>
+    
+
+    </main>
+    <footer class="footer container h-10 text-center">
+  <ul class="pl-0">
+    
+    <li class="ml-2 first:before:content-none before:content-['•'] inline-block list-none"><a class="ml-2 text-neutral-800 dark:text-neutral-400 border-none"
+          href="https://github.com/hugcis/hugo-astatine-theme">Code</a>
+    </li>
+    <li class="ml-2 first:before:content-none before:content-['•']
+                text-neutral-800 dark:text-neutral-400 inline-block list-none"><span class="ml-2">© Shourya Verma 2022</span>
+    </li>
+  </ul>
+</footer>
+<script>
+ 
+ function toggleModal(win) {
+     return ((event) => {
+         if (event.target.id.startsWith("#open-modal") || 
+             event.target.id.startsWith("#close-modal") || 
+             event.target.classList.contains("open-modal")) {
+             event.stopPropagation();
+             win.classList.toggle("invisible");
+             win.classList.toggle("pointer-events-auto");
+             document.body.classList.toggle("pointer-events-none");
+         }
+     });
+ }
+ var list = document.getElementsByClassName("open-modal");
+ for (let item of list) {
+     var id = item.attributes["data-target"].textContent;
+	 var modWin = document.getElementById(id);
+     var closeButton = document.getElementById(id.replace("open", "close"));
+
+	 item.addEventListener('click', toggleModal(modWin));
+     closeButton.addEventListener('click', toggleModal(modWin));
+     modWin.addEventListener('click', toggleModal(modWin));
+ }
+ var clipboardCopyButtons = document.getElementsByClassName("modal-copy-citation");
+ for (let button of clipboardCopyButtons) {
+     let citation_id = button.id.replace("#copy-", "");
+     let citation_text = document.getElementById(citation_id);
+     button.addEventListener('click', function (clicked) {
+        return function () {
+            if (!clicked) {
+                var last = this.innerHTML;
+                navigator.clipboard
+                         .writeText(citation_text.innerHTML)
+                         .then(() => {this.innerHTML = "Copied!"},
+                               () => {this.innerHTML = "Error copying!";});
+                clicked = true;
+                setTimeout(function () {
+                    this.innerHTML = last;
+                    clicked = false;
+                }.bind(this), 1000);
+            }
+        };
+     }(false), this);
+ }
+</script>
+
+
+  </body>
+</html>

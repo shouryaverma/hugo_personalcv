@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Home</title>
+    <link>/projects/</link>
+    <description>Recent content in Projects on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>projects</title>
+      <link>/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/</guid>
+      <description>Projects Interpretable Machine Learning Diagnosis of arrhythmia through ECG data using interpretable machine learning models. Partial Dependence Plots, Shapley Additive Explanations, Permutation Feature Importance, and Gradient Weighted Class Activation Maps are explored.
+Code | Paper
+Informed Clinical Decision Making Deep Learning in Electronic Health Records. Understand the road path from data mining of clinical databases to clinical decision support systems. Coursera course developed by Dr Fani Deligianni&amp;rsquo;s group.
+Code | Coursera</description>
+    </item>
+    
+  </channel>
+</rss>
