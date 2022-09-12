@@ -7,13 +7,13 @@ theme: hugo-astatine-theme
 # paginate: 10
 # pygmentsCodefences: true
 # pygmentsStyle: native
-enableEmoji: true
-taxonomies:
-  category: categories
-  tag: tags
-permalinks:
-  post: '/:slug/'
-  page: '/:slug/'
+# enableEmoji: true
+# taxonomies:
+#   category: categories
+#   tag: tags
+# permalinks:
+#   post: '/:slug/'
+#   page: '/:slug/'
 menu:
   main:
     - name: Experience

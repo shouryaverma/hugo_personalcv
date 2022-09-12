@@ -1,9 +1,10 @@
 ---
-title: 'Experience'
+title: 'Internship Experience'
 url: '/experience/'
-layout: 'list'
+date: "2022-09-12"
+hideAuthor: true
+hideDate: true
 ---
-## Internships
 
 * **Division of Intelligent Medical Systems, [DKFZ Heidelberg](https://www.dkfz.de/en/imsy/team/index.html) |** Apr-Oct 2022  
     Worked on improving generalizability of machine learning based tissue classification by generating domain

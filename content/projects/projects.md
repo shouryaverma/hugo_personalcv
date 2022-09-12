@@ -1,9 +1,11 @@
 ---
-title: "projects"
+title: "Projects"
 url: "/projects/"
-layout: "list"
+date: "2022-09-12"
+hideAuthor: true
+hideDate: true
 ---
-## Projects
+
 ### **Interpretable Machine Learning**  
 Diagnosis of arrhythmia through ECG data using interpretable machine learning models. Partial Dependence Plots, Shapley Additive Explanations, Permutation Feature Importance, and Gradient Weighted Class Activation Maps are explored.  
 [Code](https://github.com/shouryaverma/interpretable_ml_ecg) **|** [Paper](https://arxiv.org/abs/2205.02803)

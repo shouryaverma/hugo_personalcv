@@ -1,10 +1,10 @@
 ---
-title: "Publications"
 url: "/publications/"
-layout: "list"
+title: "Publications and Preprints"
+date: "2022-09-12"
+hideAuthor: true
+hideDate: true
 ---
-
-## Publications and Preprints
 
 * **[Development of a Semi-Automated Database for Adult Congenital Heart Disease Patients.](https://www.sciencedirect.com/science/article/abs/pii/S0828282X22003385?via%3Dihub)** **Verma, S.**, Deligianni, F., Veldtman, G. et al. Canadian Journal of Cardiology, 0828-282X (2022)
 
