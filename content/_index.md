@@ -5,7 +5,10 @@ imgname:
   type: image/jpeg
   
 name: "Shourya Verma"
-personal_title: "MSc Scientific Computing, Heidelberg University, Germany"
+personal_title: "MSc Scientific Computing"
+address: 
+  - name: "Heidelberg University"
+    street: "Germany"
 ---
 
 ## Biography
