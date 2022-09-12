@@ -2,11 +2,11 @@ baseURL: "https://shouryaverma.netlify.app/"
 languageCode: en-us
 title: Home
 theme: hugo-astatine-theme
-preserveTaxonomyNames: true
-rssLimit: 10
-paginate: 10
-pygmentsCodefences: true
-pygmentsStyle: native
+# preserveTaxonomyNames: true
+# rssLimit: 10
+# paginate: 10
+# pygmentsCodefences: true
+# pygmentsStyle: native
 enableEmoji: true
 taxonomies:
   category: categories
@@ -34,5 +34,5 @@ params:
   imgname:
     name: img/photo.jpg
     alt: Profile picture
-sitemap:
-  filename: sitemap.xml
+# sitemap:
+#   filename: sitemap.xml
