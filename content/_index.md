@@ -12,7 +12,6 @@ address:
 ---
 
 ## Biography
-#### :raised_hands: Looking for a PhD position :raised_hands:
 
 I am a second year Master's student studying [MSc Scientific Computing](https://www.uni-heidelberg.de/en/study/all-subjects/scientific-computing/scientific-computing-master) at Heidelberg University, Germany. I received my undergraduate degree in [BSc Computing Science and Physics Honors](https://digital.ucas.com/coursedisplay/courses/184fd050-6877-dbd4-a978-af0b438f9b2d?academicYearId=2023) from University of Glasgow, UK.
 
@@ -35,4 +34,3 @@ Studio, Django, Hugo, MongoDB, Dart, Flutter, Docker, Kubernetes.
 [Research Gate](https://www.researchgate.net/profile/Shourya-Verma-2) **|** 
 [Github](https://github.com/shouryaverma) **|** 
 [LinkedIn](https://www.linkedin.com/in/shourya-verma/) **|**
-[Instagram](https://www.instagram.com/shouryaverma10/)

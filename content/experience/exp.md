@@ -5,6 +5,13 @@ date: "2022-09-12"
 hideAuthor: true
 hideDate: true
 ---
+* **Machine Learning and BioImage Analysis, [EMBL Heidelberg](https://www.embl.org/people/person/anna-kreshuk/) |** Apr-Oct 2023  
+    Working on self-supervised learning methods for panoptic segmentation and domain adaptation in biomedical
+    imaging applications.
+
+* **Image Analysis and Learning Lab, [IWR Heidelberg](https://typo.iwr.uni-heidelberg.de/home) |** Nov-Mar 2022-23  
+    Worked on improving and optimizing machine learning algorithm behind UMAP (Uniform Manifold
+    Approximation and Projection for Dimension Reduction) using autoencoder and contrastive-loss based methods.
 
 * **Division of Intelligent Medical Systems, [DKFZ Heidelberg](https://www.dkfz.de/en/imsy/team/index.html) |** Apr-Oct 2022  
     Worked on improving generalizability of machine learning based tissue classification by generating domain

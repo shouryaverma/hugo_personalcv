@@ -5,7 +5,10 @@ date: "2022-09-12"
 hideAuthor: true
 hideDate: true
 ---
-
+### **Autoencoders with UMAP side loss**  
+Investigating the performance of UMAP (Uniform Manifold Approximation and Projection for Dimension Reduction) for image reconstruction using autoencoder and contrastive-loss based methods
+[Code](https://github.com/shouryaverma/umap_hiwi)
+___
 ### **Interpretable Machine Learning**  
 Diagnosis of arrhythmia through ECG data using interpretable machine learning models. Partial Dependence Plots, Shapley Additive Explanations, Permutation Feature Importance, and Gradient Weighted Class Activation Maps are explored.  
 [Code](https://github.com/shouryaverma/interpretable_ml_ecg) **|** [Paper](https://arxiv.org/abs/2205.02803)
