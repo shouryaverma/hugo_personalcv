@@ -6,7 +6,7 @@ hideAuthor: true
 hideDate: true
 ---
 ### **Autoencoders with UMAP side loss**  
-Investigating the performance of UMAP (Uniform Manifold Approximation and Projection for Dimension Reduction) for image reconstruction using autoencoder and contrastive-loss based methods
+Investigating the performance of UMAP (Uniform Manifold Approximation and Projection for Dimension Reduction) for image reconstruction using autoencoder and contrastive-loss based methods.
 [Code](https://github.com/shouryaverma/umap_hiwi)
 ___
 ### **Interpretable Machine Learning**  
