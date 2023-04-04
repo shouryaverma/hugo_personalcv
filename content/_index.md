@@ -33,4 +33,3 @@ Studio, Django, Hugo, MongoDB, Dart, Flutter, Docker, Kubernetes.
 [E-mail](mailto:shourya.verma@stud.uni-heidelberg.de) **|** 
 [Research Gate](https://www.researchgate.net/profile/Shourya-Verma-2) **|** 
 [Github](https://github.com/shouryaverma) **|** 
-[LinkedIn](https://www.linkedin.com/in/shourya-verma/) **|**

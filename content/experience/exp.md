@@ -36,4 +36,3 @@ hideDate: true
     Worked on computational aspects in photo-physics, and ‘Calculation of Two-photon Absorption Cross-section of Phenylamine Dyes’ (Research Group of Prof. Dr. Irene Burghardt)
 
 * **Biological Sciences and Bioengineering, [IIT Kanpur](https://www.iitk.ac.in/) |** 2016-2017  
-    The work involved understanding the effects of nanomaterials on plant growth under environmental stress and biomaterial-based charge storage and supercapacitors. My contributions, as an intern, led to co-authorship in [five published research papers](https://www.researchgate.net/profile/Shourya-Verma-2/publications) in peer-reviewed international journals.
